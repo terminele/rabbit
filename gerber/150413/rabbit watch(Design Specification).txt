@@ -1,0 +1,99 @@
+DESIGN SPECIFICATION
+--------------------
+File Name:     rabbit watch
+Project Name:  DECKO
+Author:        RAB & SWI
+Date:          4/13/2015 4:48:10 PM
+Last Save:     4/13/2015 4:47:43 PM
+
+BOARD SPEC
+----------
+Board Size: 
+   31.4 mm x  31.4 mm,   986.0 sq mm
+   1.24 in x  1.24 in,    1.53 sq in
+
+Number of Layers:          2 Layers
+
+Minimum Track Spacing:     0.127 mm   (5.0 mil)
+MInimum Track Width:       0.127 mm   (5.0 mil)
+
+PARTS LIST
+----------
+Component Price Estimate: $25.67
+
+TOP SIDE
+No Part Name        Qty Manufacturer             Part Number         Footprint   Type
+-------------------------------------------------------------------------------------
+ 1 Crystal 32kHz      1 Abracon Corporation      ABS05-32.768KHZ-9-T SMD-2-1.6x1 SM
+ 2 SAMD21E            1 ATMEL                    ATSAMD21E15A-AUT    QFN-32      LL
+ 3 C 0.1uF            4 TDK Corporation          C0603X5R1A104K030BC 0201        SM
+ 4 C 10uF             2 Samsung                  CL05A106MQ5NUNC     0402-tight  SM
+ 5 C 12pF             2 TDK                      C0603C0G1E120J030BA 0201        SM
+ 6 C 1uF              1 TDK Corp                 C0603X5R0J105M030BC 0201        SM
+ 7 C 47uF             1 Samsung                  CL21A476MQCLRNC     0805-tight  SM
+ 8 Phototransistor    1 Fairchild Semi           KDT00030TR          PLCC-2      SM
+ 9 LED - Orange      60 Lumex                    SML-LX0402SOC-TR    0402p-tight SM
+10 Sensor - Accel     1 ST Micro                 LIS2DH12TR          LGA-12      LL
+11 R 10k              2 Panasonic                ERJ-1GEJ103C        0201        SM
+12 R 1k               1 Panasonic                ERJ-1GEF1001C       0201        SM
+13 R 4.7k             2 Panasonic                ERJ-1GEF4701C       0201        SM
+  Total Surface Mount:           77
+  Total Lead-less:                2
+
+BOTTOM SIDE
+No Part Name        Qty Manufacturer             Part Number         Footprint   Type
+-------------------------------------------------------------------------------------
+14 CR2032 Retainer    1 Linx                     BAT-HLD-001         BAT-HLD-001 SM
+15 Button             1 Panasonic                EVP-AVAA1A          EVPAV       SM
+  Total Surface Mount:            2
+
+DO NOT INSTALL
+No Part Name        Qty Manufacturer             Part Number         Footprint   Type
+-------------------------------------------------------------------------------------
+16 TEST               5                                              1x TP SM    DNI
+
+ASSOCIATED PARTS
+No Part Name      Qty Manufacturer             Part Number         Footprint   Type
+-----------------------------------------------------------------------------------
+17 CR2032           1 Panasonic                CR2032                          DNI
+
+COMPONENTS LIST
+---------------
+TOP SIDE
+No Part Name        Qty Reference 
+----------------------------------
+ 1 Crystal 32kHz      1 X1
+ 2 SAMD21E            1 U2
+ 3 C 0.1uF            4 C2 C6 C7 C10
+ 4 C 10uF             2 C1 C5
+ 5 C 12pF             2 C3 C4
+ 6 C 1uF              1 C8
+ 7 C 47uF             1 C9
+ 8 Phototransistor    1 Q5
+ 9 LED - Orange      60 LED0 LED1 LED2 LED3 LED4 LED5 LED6 LED7 LED8 LED9
+                      LED10 LED11 LED12 LED13 LED14 LED15 LED16 LED17 LED18
+                      LED19 LED20 LED21 LED22 LED23 LED24 LED25 LED26 LED27
+                      LED28 LED29 LED30 LED31 LED32 LED33 LED34 LED35 LED36
+                      LED37 LED38 LED39 LED40 LED41 LED42 LED43 LED44 LED45
+                      LED46 LED47 LED48 LED49 LED50 LED51 LED52 LED53 LED54
+                      LED55 LED56 LED57 LED58 LED59
+10 Sensor - Accel     1 U1
+11 R 10k              2 R1 R6
+12 R 1k               1 R2
+13 R 4.7k             2 R4 R5
+
+BOTTOM SIDE
+No Part Name        Qty Reference 
+----------------------------------
+14 CR2032 Retainer    1 BAT1
+15 Button             1 S1
+
+DRILL TABLE
+-----------
+Layer Span: <Through Hole>
+ID  D (mm)  (mil)  Plated  Count
+--------------------------------
+ C   0.2540   10.0  true     104
+ L   0.9144   36.0 false       4
+
+Total Number of Drills:      108

@@ -1,0 +1,75 @@
+CAMPlot
+-------
+
+Report Written : 4/13/2015 4:49:18 PM
+Design Path    : C:\Users\lucid\Google Drive\Projects\other\2014-09 RAB BIT watch\rabbit watch.sch
+Design Title   : DECKO
+Created        : 9/17/2014 3:17:23 PM
+Last Saved     : 4/13/2015 4:49:14 PM
+Editing Time   : 95560 min
+
+Formatting Information
+----------------------
+
+    PDF Output
+    ----------
+
+    Pulsonix 8.5 Pulsonix.exe 5900
+
+Plot Details
+------------
+
+    PDF Output
+    ----------
+
+    Plot Name:       uC
+
+    Contains:        General
+
+    Scale:           1.000
+    Mirrored:        No
+    Rotated:         No
+    Offset:          -12400.0    -18800.0thou
+    Step & Repeat:   Not used
+
+
+    PDF Output
+    ----------
+
+    Plot Name:       LEDS
+
+    Contains:        LEDs
+
+    Scale:           1.000
+    Mirrored:        No
+    Rotated:         No
+    Offset:          -12400.0    -18800.0thou
+    Step & Repeat:   Not used
+
+
+Summary Information
+-------------------
+
+    PDF Output
+    ----------
+
+    Scale:           1.000
+    Mirrored:        No
+    Rotated:         No
+    Offset:          -12400.0    -18800.0thou
+    Step & Repeat:   Not used
+
+
+
+
+    Outputs covered by CAM Plots
+    ----------------------------
+
+    uC: PDF, Artwork, Enabled
+    LEDS: PDF, Artwork, Enabled
+
+    Outputs not covered by CAM Plots
+    --------------------------------
+
+
+                ---------------- End Of Report ----------------
